@@ -1,0 +1,11 @@
+p{
+  color: $color-primario;
+  background-color: $color-fondo;
+  a{
+    text-decoration: none;
+    color: $color-secundario;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
